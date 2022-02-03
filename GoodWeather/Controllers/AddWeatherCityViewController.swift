@@ -8,7 +8,8 @@
 import Foundation
 import UIKit
 
-class AddWeatherCityTableViewController {
+class AddWeatherCityTableViewController: UIViewController {
+    
     
     
 }
