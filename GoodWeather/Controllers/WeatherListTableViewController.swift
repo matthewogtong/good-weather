@@ -27,6 +27,9 @@ class WeatherListTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: K.reuseableWeatherCell, for: indexPath)
         
+        cell.textLabel?.text = "Houston"
+        cell.detailTextLabel?.text = "70"
+        
         return cell
         
     }
