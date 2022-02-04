@@ -15,6 +15,10 @@ class WeatherListTableViewController: UITableViewController {
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
 }
 
 
