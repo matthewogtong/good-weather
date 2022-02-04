@@ -23,6 +23,10 @@ class WeatherListTableViewController: UITableViewController {
         return 1
     }
     
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
 }
 
 
