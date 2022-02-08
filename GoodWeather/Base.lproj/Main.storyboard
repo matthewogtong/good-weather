@@ -86,6 +86,9 @@
                                 <rect key="frame" x="173.5" y="212" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                                <connections>
+                                    <action selector="saveCityButtonPressed" destination="F56-b1-ijI" eventType="touchUpInside" id="FeL-FD-mnc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s2e-ao-Iz8"/>
@@ -100,8 +103,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add City" id="SmN-pJ-PEC">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="dax-kl-tOb"/>
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="dax-kl-tOb">
+                            <connections>
+                                <action selector="close" destination="F56-b1-ijI" id="rPF-Fz-PKW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="cityNameTextField" destination="QKf-H3-gbO" id="clK-fE-awD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwn-i0-Dwt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
