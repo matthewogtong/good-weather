@@ -16,6 +16,7 @@
 		FEBBE31327AC3BF600F2DB24 /* AddWeatherCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBBE31227AC3BF600F2DB24 /* AddWeatherCityViewController.swift */; };
 		FEBC13DE27AD7CA90025F38D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC13DD27AD7CA90025F38D /* Constants.swift */; };
 		FEBC13E127AF2F110025F38D /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC13E027AF2F110025F38D /* WeatherCell.swift */; };
+		FEBF77BD27B31DBF00A65BE7 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF77BC27B31DBF00A65BE7 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FEBBE31227AC3BF600F2DB24 /* AddWeatherCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherCityViewController.swift; sourceTree = "<group>"; };
 		FEBC13DD27AD7CA90025F38D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FEBC13E027AF2F110025F38D /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		FEBF77BC27B31DBF00A65BE7 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		FEBF77BB27B31D8E00A65BE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF77BC27B31DBF00A65BE7 /* Webservice.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEBC13DE27AD7CA90025F38D /* Constants.swift in Sources */,
+				FEBF77BD27B31DBF00A65BE7 /* Webservice.swift in Sources */,
 				FEBBE31127AC3BE100F2DB24 /* WeatherListTableViewController.swift in Sources */,
 				FEBC13E127AF2F110025F38D /* WeatherCell.swift in Sources */,
 				FEBBE2FC27AAF6BA00F2DB24 /* AppDelegate.swift in Sources */,
