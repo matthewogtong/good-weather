@@ -30,19 +30,25 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSo-Ei-lAh">
-                                            <rect key="frame" x="323" y="32" width="71" height="36"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSo-Ei-lAh">
+                                            <rect key="frame" x="321" y="34" width="71" height="36"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                             <color key="textColor" systemColor="systemGray2Color"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="vSo-Ei-lAh" firstAttribute="top" secondItem="Zfv-bQ-DPA" secondAttribute="top" constant="34" id="1t4-j6-Yyu"/>
+                                        <constraint firstAttribute="trailing" secondItem="vSo-Ei-lAh" secondAttribute="trailing" constant="22" id="PMf-jh-GPe"/>
+                                        <constraint firstItem="vSo-Ei-lAh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qwa-xN-0QH" secondAttribute="trailing" constant="8" symbolic="YES" id="bnE-Gh-H7A"/>
                                         <constraint firstItem="Qwa-xN-0QH" firstAttribute="leading" secondItem="Zfv-bQ-DPA" secondAttribute="leading" constant="20" symbolic="YES" id="iFb-Co-56I"/>
                                         <constraint firstItem="Qwa-xN-0QH" firstAttribute="top" secondItem="Zfv-bQ-DPA" secondAttribute="top" constant="39" id="xhr-Ct-ZnK"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cityNameLabel" destination="Qwa-xN-0QH" id="aIv-bL-Fv2"/>
+                                    <outlet property="temperatureLabel" destination="vSo-Ei-lAh" id="dnw-7h-IVP"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
