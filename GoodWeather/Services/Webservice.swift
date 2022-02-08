@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Webservice {
+struct Resource<T> {
+    
+}
+
+final class Webservice {
     
     
 }
