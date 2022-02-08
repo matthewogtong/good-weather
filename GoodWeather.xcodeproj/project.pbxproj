@@ -62,6 +62,7 @@
 		FEBBE2FA27AAF6BA00F2DB24 /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF77BB27B31D8E00A65BE7 /* Services */,
 				FEBC13DF27AF2EEF0025F38D /* Custom Cells */,
 				FEBBE30F27AC3BC900F2DB24 /* Controllers */,
 				FEBBE2FB27AAF6BA00F2DB24 /* AppDelegate.swift */,
@@ -90,6 +91,13 @@
 				FEBC13E027AF2F110025F38D /* WeatherCell.swift */,
 			);
 			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		FEBF77BB27B31D8E00A65BE7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
