@@ -8,7 +8,7 @@
 import Foundation
 
 struct Resource<T> {
-    
+    let url: URL
 }
 
 final class Webservice {
