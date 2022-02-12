@@ -14,5 +14,8 @@ struct Resource<T> {
 
 final class Webservice {
     
+    func load() {
+        
+    }
     
 }
