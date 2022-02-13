@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEA26D9727B96E6A000E005E /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA26D9627B96E6A000E005E /* WeatherListViewModel.swift */; };
 		FEBBE2FC27AAF6BA00F2DB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBBE2FB27AAF6BA00F2DB24 /* AppDelegate.swift */; };
 		FEBBE2FE27AAF6BA00F2DB24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBBE2FD27AAF6BA00F2DB24 /* SceneDelegate.swift */; };
 		FEBBE30327AAF6BA00F2DB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBBE30127AAF6BA00F2DB24 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEA26D9627B96E6A000E005E /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 		FEBBE2F827AAF6BA00F2DB24 /* GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBBE2FB27AAF6BA00F2DB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBBE2FD27AAF6BA00F2DB24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				FEBCBC2127B95D76001FE3CB /* AddWeatherViewModel.swift */,
+				FEA26D9627B96E6A000E005E /* WeatherListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				FEBC13E127AF2F110025F38D /* WeatherCell.swift in Sources */,
 				FEBCBC2227B95D76001FE3CB /* AddWeatherViewModel.swift in Sources */,
 				FEBCBC2627B95E54001FE3CB /* Constants.swift in Sources */,
+				FEA26D9727B96E6A000E005E /* WeatherListViewModel.swift in Sources */,
 				FEBBE2FC27AAF6BA00F2DB24 /* AppDelegate.swift in Sources */,
 				FEBBE31327AC3BF600F2DB24 /* AddWeatherCityViewController.swift in Sources */,
 				FEBBE2FE27AAF6BA00F2DB24 /* SceneDelegate.swift in Sources */,
