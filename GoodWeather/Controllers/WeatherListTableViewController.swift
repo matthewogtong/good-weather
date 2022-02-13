@@ -13,18 +13,18 @@ class WeatherListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        
-//        let resource = Resource<WeatherResponse>(url: URL(string: "https://api.openweathermap.org/data/2.5/weather?q=houston&appid=e902673bb052b9dca3cf1e6308d3ceb7")!) { data in
-//            
-//            return try? JSONDecoder().decode(WeatherResponse.self, from: data)
-//
-//        }
-//
-//        WebService().load(resource: resource) { weatherResponse in
-//            if let weatherResponse = weatherResponse {
-//                print(weatherResponse)
-//            }
-//        }
+        /*
+        let resource = Resource<WeatherResponse>(url: URL(string: "https://api.openweathermap.org/data/2.5/weather?q=houston&appid=e902673bb052b9dca3cf1e6308d3ceb7")!) { data in
+            
+            return try? JSONDecoder().decode(WeatherResponse.self, from: data)
+
+        }
+
+        WebService().load(resource: resource) { weatherResponse in
+            if let weatherResponse = weatherResponse {
+                print(weatherResponse)
+            }
+        } */
         
     }
     
