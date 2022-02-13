@@ -10,7 +10,7 @@ import UIKit
 
 protocol AddWeatherDelegate {
     
-    func addWeatherDidSav(vm: WeatherViewModel)
+    func addWeatherDidSave(vm: WeatherViewModel)
     
 }
 
@@ -27,7 +27,7 @@ class AddWeatherCityTableViewController: UIViewController {
         if let city = cityNameTextField.text {
             
             addWeatherVM.addWeather(for: city) { vm in
-                self.delegate?.addWeatherDidSav(vm: vm)
+                self.delegate?.addWeatherDidSave(vm: vm)
                 self.dismiss(animated: true, completion: nil)
             }
             
