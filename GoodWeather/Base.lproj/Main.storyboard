@@ -60,7 +60,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Settings" id="mMq-Pr-d1J"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="H38-MF-AtH">
                             <connections>
-                                <segue destination="pW9-cU-bgW" kind="presentation" id="tAM-x3-wKq"/>
+                                <segue destination="pW9-cU-bgW" kind="presentation" identifier="AddWeatherCityViewController" id="tAM-x3-wKq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -72,7 +72,7 @@
         <!--Add City-->
         <scene sceneID="SEr-98-fPB">
             <objects>
-                <viewController id="F56-b1-ijI" customClass="AddWeatherCityTableViewController" customModule="GoodWeather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="F56-b1-ijI" customClass="AddWeatherCityViewController" customModule="GoodWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UAL-xj-dJr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

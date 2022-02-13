@@ -15,6 +15,8 @@ struct Constants {
         
         static let reuseableWeatherCell = "WeatherCell"
         
+        static let addWeatherCityVCIdentifier = "AddWeatherCityViewController"
+        
     }
     
     struct Urls {

@@ -24,8 +24,6 @@ class WeatherListTableViewController: UITableViewController {
     }
     
     
-    //MARK: - DataSource
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
@@ -41,14 +39,40 @@ class WeatherListTableViewController: UITableViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == Constants.K.addWeatherCityVCIdentifier {
+            
+            prepareSegueForAddWeatherCityViewController(segue: segue)
+            
+        }
+        
+    }
+    
+    func prepareSegueForAddWeatherCityViewController(segue: UIStoryboardSegue) {
+        
+        guard let nav = segue.destination as? UINavigationController else {
+            fatalError("NavigationController not found")
+        }
+        
+        guard let addWeatherCityVC = nav.viewControllers.first as? AddWeatherCityViewController else {
+            fatalError("AddWeatherCityController not found")
+        }
+        
+        addWeatherCityVC.delegate = self
+        
+    }
+    
 }
 
+//MARK: - AddWeatherDelegate
+
 extension WeatherListTableViewController: AddWeatherDelegate {
-    
+
     func addWeatherDidSave(vm: WeatherViewModel) {
         print(vm)
     }
-    
+
 }
 
 

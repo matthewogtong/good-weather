@@ -14,7 +14,7 @@ protocol AddWeatherDelegate {
     
 }
 
-class AddWeatherCityTableViewController: UIViewController {
+class AddWeatherCityViewController: UIViewController {
     
     @IBOutlet weak var cityNameTextField: UITextField!
     
