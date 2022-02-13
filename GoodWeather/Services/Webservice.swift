@@ -20,6 +20,8 @@ final class WebService {
         
         URLSession.shared.dataTask(with: resource.url) { data, response, error in
             
+            print(data)
+            
             if let data = data {
                 completion(resource.parse(data))
             } else {
