@@ -19,7 +19,7 @@ class WeatherCell: UITableViewCell {
         
         cityNameLabel.text = vm.city
         
-        temperatureLabel.text = "\(vm.temperature)"
+        temperatureLabel.text = "\(vm.temperature.formatAsDegree())"
         
     }
     
