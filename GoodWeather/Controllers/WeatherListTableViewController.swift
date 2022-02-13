@@ -36,7 +36,7 @@ class WeatherListTableViewController: UITableViewController {
         
         let weatherVM = weatherListViewModel.modelAt(indexPath.row)
         
-        
+        cell.configure(weatherVM)
         
         return cell
         
