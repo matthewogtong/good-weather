@@ -15,6 +15,4 @@ class WeatherCell: UITableViewCell {
     
     @IBOutlet weak var temperatureLabel: UILabel!
     
-    
-    
 }
