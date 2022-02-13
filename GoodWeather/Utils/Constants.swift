@@ -11,6 +11,12 @@ import Foundation
 
 struct Constants {
     
+    struct K {
+        
+        static let reuseableWeatherCell = "WeatherCell"
+        
+    }
+    
     struct Urls {
         
         static func urlForWeatherByCity(city: String) -> URL {
