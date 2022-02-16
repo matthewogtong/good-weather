@@ -23,6 +23,7 @@ class AddWeatherViewModel {
             if let weatherResponse = result {
                 
                 let vm = WeatherViewModel(weather: weatherResponse)
+                
                 completion(vm)
                 
             }
