@@ -45,9 +45,7 @@ class WeatherListTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == Constants.K.addWeatherCityVCIdentifier {
-            
             prepareSegueForAddWeatherCityViewController(segue: segue)
-            
         }
         
     }
