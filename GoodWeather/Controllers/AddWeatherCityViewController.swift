@@ -9,9 +9,7 @@ import Foundation
 import UIKit
 
 protocol AddWeatherDelegate {
-    
     func addWeatherDidSave(vm: WeatherViewModel)
-    
 }
 
 class AddWeatherCityViewController: UIViewController {
